@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00_Define">
+      <UniqueIdentifier>{2390d596-bd2a-447c-a48d-7a8a11304d89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02_Renderer">
+      <UniqueIdentifier>{eb10f697-696f-4af0-8dca-a65e8a68b473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Object">
+      <UniqueIdentifier>{52c8c133-aed4-438f-a98b-cf04fad359d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Object\HelperObject">
+      <UniqueIdentifier>{a9cf2df2-00ab-497c-a27a-df14aa2a0a60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Object\MeshObject">
+      <UniqueIdentifier>{1616515e-035c-4105-87f1-727cade43ef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_Manger">
+      <UniqueIdentifier>{39cd23e0-dd8f-4f2f-b110-71d1119d8def}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBX">
+      <UniqueIdentifier>{5f2729bf-63b3-4418-9ab9-b3e7af110ef5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Header">
+      <UniqueIdentifier>{5bc2c2b6-331e-49ed-958a-4c2c5fe0502a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Object\Text">
+      <UniqueIdentifier>{a1d20435-900a-487a-be76-3a4e79d66e80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tex">
+      <UniqueIdentifier>{5347f819-9cc6-4c05-8cea-bc66ce41482f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tex\DDS">
+      <UniqueIdentifier>{e7b150a7-6542-4e8c-bca2-65e2e9a846b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tex\Effect">
+      <UniqueIdentifier>{aae2aae0-43a5-40a5-a5a9-c35cf86a2728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tex\Effect\Light">
+      <UniqueIdentifier>{bda3dcea-5fea-4257-958e-aec30706188b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ClaVGraphics.h">
+      <Filter>02_Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderer.h">
+      <Filter>01_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DxDefine.h">
+      <Filter>00_Define</Filter>
+    </ClInclude>
+    <ClInclude Include="DxEffect.h">
+      <Filter>00_Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>03_Object\MeshObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Axis.h">
+      <Filter>03_Object\HelperObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>03_Object\HelperObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectRender.h">
+      <Filter>02_Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>04_Manger</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXLoader.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshObject.h">
+      <Filter>03_Object\MeshObject</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceAdapter.h">
+      <Filter>01_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsData.h">
+      <Filter>01_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteRender.h">
+      <Filter>02_Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteAdapter.h">
+      <Filter>01_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>03_Object\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="DDSTextureLoader.h">
+      <Filter>Tex\DDS</Filter>
+    </ClInclude>
+    <ClInclude Include="LightHelper.h">
+      <Filter>01_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLightAdapter.h">
+      <Filter>01_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>Tex\Effect\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLightSetting.h">
+      <Filter>04_Manger</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ClaVGraphics.cpp">
+      <Filter>02_Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>03_Object\MeshObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Axis.cpp">
+      <Filter>03_Object\HelperObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>03_Object\HelperObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectRender.cpp">
+      <Filter>02_Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>04_Manger</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXLoader.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshObject.cpp">
+      <Filter>03_Object\MeshObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteRender.cpp">
+      <Filter>02_Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>03_Object\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader.cpp">
+      <Filter>Tex\DDS</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLight.cpp">
+      <Filter>Tex\Effect\Light</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\FX\BasicLegacy.fx">
+      <Filter>Tex</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

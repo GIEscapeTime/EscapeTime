@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Core">
+      <UniqueIdentifier>{11d01c6c-11e7-422b-9934-6ee363f6360a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Component">
+      <UniqueIdentifier>{f4ddce64-34ec-47d7-ba78-aa7109efe21c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Timer">
+      <UniqueIdentifier>{11f4f8c2-c911-4d56-9354-a904ca02f499}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object">
+      <UniqueIdentifier>{e514187a-6e9d-46c7-b9f4-310922ddaf85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Component\Parent">
+      <UniqueIdentifier>{1c8b499c-a559-4bc4-9fa1-e8981fd6d321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object\Parent">
+      <UniqueIdentifier>{7e0f92c7-f852-49b2-bb02-43c6ef0d3b2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene">
+      <UniqueIdentifier>{8adb325c-6fd5-46df-9233-bae23cbe5ff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\Manager">
+      <UniqueIdentifier>{158d2b8d-c2fd-4a3f-902b-c38d2f6111e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\Parent">
+      <UniqueIdentifier>{7c30d932-e05e-4a11-844d-1deefffb529c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Component\Renderer">
+      <UniqueIdentifier>{34773bee-57c0-4408-9f9a-750d76d82968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Component\Transform">
+      <UniqueIdentifier>{b2550b60-9b74-495e-8168-50b6ab3be046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Math">
+      <UniqueIdentifier>{ff0b0c65-d00b-42a9-bec1-57607b7095d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Input">
+      <UniqueIdentifier>{d6774bc5-f814-4b73-9fa6-d4887869f1a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Sound">
+      <UniqueIdentifier>{47f8643c-4985-477e-829e-2967df881d6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\API">
+      <UniqueIdentifier>{90f41c06-24a7-4e90-8823-a78f4231ff37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Component\Camera">
+      <UniqueIdentifier>{55004574-c618-4508-ba57-9b7540d33b11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Camera">
+      <UniqueIdentifier>{ceeba016-e902-430d-b767-0b8aead96741}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Component\Button">
+      <UniqueIdentifier>{7febc49e-4aa8-4915-b3d4-50662485f54f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Component\Test">
+      <UniqueIdentifier>{b35b6306-982c-4b8a-b939-2b8c16b02e35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Component\UIRenderer">
+      <UniqueIdentifier>{2e1eeca7-1d02-4d74-a98b-3f5d0d816566}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Component\TextRenderer">
+      <UniqueIdentifier>{8f08a321-f6f2-43f4-a793-f9ba1470d525}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Component\VolumeControl">
+      <UniqueIdentifier>{362279f5-73f8-43a0-95f5-9198c2501fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Component\Animator">
+      <UniqueIdentifier>{230cbffa-8999-4eab-88a1-dd23a8745f3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Component\Light">
+      <UniqueIdentifier>{ff1a5d76-2c34-4c46-84ea-be710f9e534e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core.h">
+      <Filter>소스 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonHeader.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>소스 파일\Component\Parent</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>소스 파일\Object\Parent</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>소스 파일\Scene\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>소스 파일\Scene\Parent</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>소스 파일\Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>소스 파일\Component\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="KunMath.h">
+      <Filter>소스 파일\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>소스 파일\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>소스 파일\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="KunrealAPI.h">
+      <Filter>소스 파일\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleMath.h">
+      <Filter>소스 파일\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>소스 파일\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>소스 파일\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectCamera.h">
+      <Filter>소스 파일\Component\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>소스 파일\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>소스 파일\Component\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentHeaders.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TestComponent.h">
+      <Filter>소스 파일\Component\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeGraveyard.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="UIRenderer.h">
+      <Filter>소스 파일\Component\UIRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="TextRenderer.h">
+      <Filter>소스 파일\Component\TextRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="VolumeControl.h">
+      <Filter>소스 파일\Component\VolumeControl</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>소스 파일\Component\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>소스 파일\Component\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraController.h">
+      <Filter>소스 파일\Component\Camera</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>소스 파일\Component\Parent</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>소스 파일\Object\Parent</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>소스 파일\Scene\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>소스 파일\Scene\Parent</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>소스 파일\Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>소스 파일\Component\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="KunMath.cpp">
+      <Filter>소스 파일\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>소스 파일\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>소스 파일\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="KunrealAPI.cpp">
+      <Filter>소스 파일\API</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleMath.cpp">
+      <Filter>소스 파일\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>소스 파일\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectCamera.cpp">
+      <Filter>소스 파일\Component\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>소스 파일\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>소스 파일\Component\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="TestComponent.cpp">
+      <Filter>소스 파일\Component\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="UIRenderer.cpp">
+      <Filter>소스 파일\Component\UIRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRenderer.cpp">
+      <Filter>소스 파일\Component\TextRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="VolumeControl.cpp">
+      <Filter>소스 파일\Component\VolumeControl</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>소스 파일\Component\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>소스 파일\Component\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraController.cpp">
+      <Filter>소스 파일\Component\Camera</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

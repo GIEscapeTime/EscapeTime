@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="메인">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="타이머">
+      <UniqueIdentifier>{8fce3c39-b33b-4675-92ae-56236e0e19d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="컴포넌트">
+      <UniqueIdentifier>{11418964-6051-46dc-a227-570304f5ff31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="컴포넌트\Monster_Ai">
+      <UniqueIdentifier>{ea64e256-a83a-4972-ad8c-77e055d82ee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="컴포넌트\UIController">
+      <UniqueIdentifier>{80ed5160-1f7b-49e1-9f72-286e7cf77b78}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainClient.h">
+      <Filter>메인</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>타이머</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientFunction.h">
+      <Filter>메인</Filter>
+    </ClInclude>
+    <ClInclude Include="MapMatrix.h">
+      <Filter>메인</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerComponent.h">
+      <Filter>컴포넌트</Filter>
+    </ClInclude>
+    <ClInclude Include="RockComponent.h">
+      <Filter>컴포넌트</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrowComponent.h">
+      <Filter>컴포넌트</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterAi.h">
+      <Filter>컴포넌트\Monster_Ai</Filter>
+    </ClInclude>
+    <ClInclude Include="UIController.h">
+      <Filter>컴포넌트\UIController</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ProjectList.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="ProjectList.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>메인</Filter>
+    </ClCompile>
+    <ClCompile Include="MainClient.cpp">
+      <Filter>메인</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimer.cpp">
+      <Filter>타이머</Filter>
+    </ClCompile>
+    <ClCompile Include="MapMatrix.cpp">
+      <Filter>메인</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerComponent.cpp">
+      <Filter>컴포넌트</Filter>
+    </ClCompile>
+    <ClCompile Include="RockComponent.cpp">
+      <Filter>컴포넌트</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrowComponent.cpp">
+      <Filter>컴포넌트</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterAi.cpp">
+      <Filter>컴포넌트\Monster_Ai</Filter>
+    </ClCompile>
+    <ClCompile Include="UIController.cpp">
+      <Filter>컴포넌트\UIController</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
